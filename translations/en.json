@@ -19,15 +19,45 @@
             "voice": "Wake up",
             "description": "Wakes up all the running modules"
         },
-        "dublinbus_start": {
-            "text": "Show bus times",
-            "voice": "Show bus times",
-            "description": "Shows dublin bus times for buses heading into town"
+        "show_crowd_count": {
+            "text": "Show me statistics",
+            "voice": "Show me statistics",
+            "description": "Shows you the crowd counts from smart stadium"
         },
-        "dublinbus_stop": {
-            "text": "Close bus times",
-            "voice": "Close bus times",
-            "description": "Closes displaying bus times notification"
+        "hide_crowd_count": {
+            "text": "Hide statistics",
+            "voice": "Hide statistics",
+            "description": "Hides Statistics"
+        },
+        "show_heatmap": {
+            "text": "Show me heat map",
+            "voice": "Show me heat map",
+            "description": "Shows the heatmap of the stadium crowd density"
+        },
+        "hide_heatmap": {
+            "text": "Hide heat map",
+            "voice": "Hide heat map",
+            "description": "Hides Heatmap"
+        },
+        "show_nextcam": {
+            "text": "next",
+            "voice": "next",
+            "description": "Shows Next Camera"
+        },
+        "show_section": {
+            "text": "show me section *num",
+            "voice": "show me section *num",
+            "description": "Show section Number"
+        },
+        "show_camera": {
+            "text": "show me cam *cam",
+            "voice": "show me cam *cam",
+            "description": "Show Cam Number"
+        },
+        "show_scam": {
+            "text": "show me *cam camera",
+            "voice": "show me *cam camera",
+            "description": "Show me Place Camera"
         }
     }
 }

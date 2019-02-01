@@ -21,11 +21,37 @@ function CommandManager(scope) {
 		});
 	});
 
-	scope.registerCommand('dublinbus_start', function() {
-		scope.sendNotification("DUBLINBUS_START");
-	});
+	// scope.registerCommand('show_crowd_count', function() {
+	// 	scope.sendNotification("HIDE_HEATMAP");
+	// 	scope.sendNotification("SHOW_CROWD_COUNT");
+	// });
 
-	scope.registerCommand('dublinbus_stop', function() {
-		scope.sendNotification("DUBLINBUS_STOP");
+	// scope.registerCommand('hide_crowd_count', function() {
+	// 	scope.sendNotification("HIDE_CROWD_COUNT");
+	// });
+
+	// scope.registerCommand('show_heatmap', function() {
+	// 	scope.sendNotification("HIDE_CROWD_COUNT");
+	// 	scope.sendNotification("SHOW_HEATMAP");
+	// });
+
+	// scope.registerCommand('hide_heatmap', function() {
+	// 	scope.sendNotification("HIDE_HEATMAP");
+	// });
+
+	// scope.registerCommand('show_nextcam', function() {
+	// 	scope.sendNotification("SHOW_NEXT");
+	// });
+
+	// scope.registerCommand('show_section', function(num) {
+	// 	scope.sendNotification("SHOW_SECTION", {pay: num});
+	// });
+
+	// scope.registerCommand('show_camera', function(cam) {
+	// 	scope.sendNotification("SHOW_CAM", {pay: cam});
+	// });
+
+	scope.registerCommand('show_scam', function(cam) {
+		scope.sendNotification("SHOW_CAM", {pay: cam});
 	});
 }
